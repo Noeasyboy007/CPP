@@ -20,7 +20,7 @@ int main ()
 
     //comparison operators/Relational Operators
     cout<<"Comparison Operators/Relational Operators"<<endl;
-    
+
     bool first = (a>b);
     cout<<"The value of first is :- "<<first<<endl;
     bool second = (a<b);
@@ -36,4 +36,10 @@ int main ()
 
     cout<<endl;
     cout<<endl;
+
+    //Logical Operators
+    cout<<"Logical Operators"<<endl;
+   cout<<"The Value of Logical and Operators ((a==b) && (a<b)) is "<<((a==b) && (a<b))<<endl;
+   cout<<"The Value of Logical or Operators ((a==b) || (a>b)) is "<<((a==b) || (a>b))<<endl;
+   cout<<"The Value of Logical or Operators (!(a==b)) is "<<(!(a==b))<<endl;
 }
