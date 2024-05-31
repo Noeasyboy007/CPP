@@ -39,6 +39,7 @@ int main ()
 
     //Logical Operators
     cout<<"Logical Operators"<<endl;
+    
    cout<<"The Value of Logical and Operators ((a==b) && (a<b)) is "<<((a==b) && (a<b))<<endl;
    cout<<"The Value of Logical or Operators ((a==b) || (a>b)) is "<<((a==b) || (a>b))<<endl;
    cout<<"The Value of Logical or Operators (!(a==b)) is "<<(!(a==b))<<endl;
